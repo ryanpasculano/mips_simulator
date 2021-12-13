@@ -1,0 +1,15 @@
+{
+	
+	"rob_size": 8,
+	"lsq_size": 4,
+	"debugMemory": true,
+	"debugPipe": false,
+	"debugFetch": false,
+	"debugDispatch": false,
+	"debugIssue": false,
+	"debugExecute": false,
+	"debugComplete": true,
+	"debugRetire": true,
+	"debugAll": false,
+	"traceMemory" : true
+}

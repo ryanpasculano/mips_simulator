@@ -1,0 +1,34 @@
+simulate 
+runs until  syscalll terminates program
+run n
+run for n cycles
+debug
+change to true in json and at top of main
+check MSHR on every  miss so you dont make duplicate  requests
+all cahes inherit from abstract memory
+l2 next is memory
+  previous is l1
+config.json to change  mem delay
+
+
+
+MSHR
+	only store 2 requests for each line of MSHR
+	iterate through whole list to look for more when first is serviced
+	stall of MSHR is full
+
+
+
+We can decode the bits in the fetch stage if we want
+
+load a
+load a 
+load a
+
+
+MSHR
+-Address	PAcket1		packet 2
+-Address	packet 3
+-
+-
+-
